@@ -184,7 +184,7 @@ forms:after {
   line-height: 26px;
 }
 
-#big {
+.big {
   font-size: 24px;
 }
 
@@ -200,9 +200,8 @@ main {
 
 .article {
   width: 100%;
-  height: 100%%;
   color: black;
-  padding-bottom: 30px;
+  padding-bottom: 70px;
 }
 
 
@@ -212,17 +211,37 @@ main {
   line-height: 29px;
 }
 
+.author {
+  margin:0px 0px 20px 0px;
+}
+
+.author p {
+  display: inline-block;
+  color: #999999;
+  width: 100%;
+  font-size: 0.9em;
+}
+
+
+.green-author {
+  color: #99cc33;
+  font-weight: 300;
+}
+
 h2 {
   font-family: 'Montserrat';
   color: #504741;
   font-size: 32px;
+  text-shadow: 3px 3px 0px rgba(0, 0, 0, .1);
   line-height: 35px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 img {
-  width: 100%;
+  width: calc(100% + 48px);
   height: auto;
+  margin-left: -24px;
+  margin-bottom:24px;
 }
 
 
@@ -283,6 +302,11 @@ hr {
 
 .footdown {
   margin-top: 20px;
+}
+.footdown:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .copyright {
