@@ -238,28 +238,65 @@ footer {
   padding: 24px;
 }
 
+
+
+.footup:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footup {
+  margin-bottom: 16px;
+}
+
+
 #foot li a {
   color: rgba(0, 0, 0, .35);
 }
 
 .sect-one {
-  height: 240px;
+  height: auto;
   width: 23%;
   float: left;
 }
 
 .sect-two {
-  height: 240px;
+  height: auto;
   width: 23%;
   float: left;
 }
 .sect-three {
-  height: 240px;
+  height: auto;
   width: 23%;
   float: left;
 }
 .sect-four {
-  height: 240px;
+  height: auto;
   width: 31%;
   float: left;
+}
+
+hr {
+  border: 1px solid rgba(0, 0, 0, .1);
+}
+
+.footdown {
+  margin-top: 20px;
+}
+
+.copyright {
+  font-size: 14px;
+  color: #000;
+  width: 37%;
+  float: left;
+}
+
+.social {
+  margin: 20px 20px 0px;
+  float: right;
+}
+
+.social * {
+  margin-left:  15px;
 }
