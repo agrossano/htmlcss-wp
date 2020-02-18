@@ -11,6 +11,8 @@
 body {
   background-image: url(../img/sfondo.png);
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  line-height: 1.8;
+  font-weight: 300;
 
 }
 
@@ -59,7 +61,7 @@ header {
 }
 
 .title h2 {
-  display: block;
+    display: block;
     color: rgba(255, 255, 255, .8);
     font-family: 'Montserrat';
     font-size: 1.2em;
@@ -94,23 +96,92 @@ nav {
 
 .widget {
   width: 100%;
-  margin-bottom: 25px;;
+  margin-bottom: 25px;
+  padding: 24px;
   background-color: white;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, .24);
 }
 
-
-
-.right {
-  width: 23%;
-  float: right;
+h6 {
+  font-family: 'Montserrat';
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 25px;
+  margin-top: 4px;
+  margin-bottom: 12px;
+  color: #504741;
 }
 
 
+
+li {
+  list-style: none;
+  margin: 2px 0px;
+  padding: 3px 8px;
+}
+
+a, a:link, a:visited {
+    color: #99cc33;
+    text-decoration: none;
+}
+
+
+.right {
+  width: 29%;
+  float: right;
+}
+
+.right .widget:first-child {
+  padding: 15px;
+}
+
+forms:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#field {
+  background: rgba(0, 0, 0, 0.04);
+  color: #999999;
+  width: 72%;
+  font-size: 1em;
+  line-height: 1.4;
+  margin: 0px;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+#searchsubmit {
+  width: 22%;
+  font-size: 0.9em;
+  background-color: #706760;
+  color: rgba(255, 255, 255, .75);
+  font-weight: 400;
+  margin: 12px 0px;
+  padding: 11px;
+  border: 1px solid rgba(0, 0, 0, .8);
+  box-shadow: inset 1px 1px 0px rgba(255, 255, 255, .24);
+
+}
+
+
+.tagcloud {
+  font-size: 11px;
+  font-weight: 300;
+  line-height: 26px;
+}
+
+#big {
+  font-size: 24px;
+}
+
 main {
   height: 2800px;
-  width: 50%;
+  width: 44%;
   background-color: grey;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, .24);
   float: left;
   margin: 0px 2%;
 }
