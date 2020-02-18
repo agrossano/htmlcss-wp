@@ -227,6 +227,7 @@ img {
 
 
 footer {
+  float: left;
   color: rgba(0, 0, 0, .35);
   font-size: 16px;
   line-height: 29px;
